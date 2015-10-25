@@ -1,0 +1,11 @@
+[Service]
+WorkingDirectory=/home/pi/pixel-matrix
+ExecStart=/usr/local/bin/npm start
+Restart=always
+StandardOutput=syslog
+SyslogIdentifier=hello-world
+Environment=NODE_ENV=production
+Environment=PLATFORM=pi
+
+[Install]
+WantedBy=multi-user.target

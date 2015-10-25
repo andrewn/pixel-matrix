@@ -1,0 +1,7 @@
+{
+  "pins": {
+    "data": "GPIO20",
+    "clock": "GPIO21",
+    "cs": "GPIO16"
+  }
+}
