@@ -3,7 +3,7 @@ WorkingDirectory=/home/pi/pixel-matrix
 ExecStart=/usr/local/bin/npm start
 Restart=always
 StandardOutput=syslog
-SyslogIdentifier=hello-world
+SyslogIdentifier=pixel-matrix
 Environment=NODE_ENV=production
 Environment=PLATFORM=pi
 
